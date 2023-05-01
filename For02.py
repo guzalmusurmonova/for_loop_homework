@@ -5,5 +5,10 @@ def main(n):
         n: int
     Returns:
         string: return  answer
-    """
-    return
+    """ 
+    s=" " 
+    for i in range(0,n):
+        s=s+str(i)
+    x=",".join(s)
+    return x
+print(main(3))
